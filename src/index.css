@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+}
+
+body {
+  @apply bg-zinc-950 text-zinc-50 antialiased selection:bg-emerald-500/30;
+}
+
+.chess-square-light {
+  @apply bg-[#ebecd0];
+}
+
+.chess-square-dark {
+  @apply bg-[#779556];
+}
+
+.chess-square-last-move {
+  @apply bg-yellow-400/50;
+}
+
+.chess-square-selected {
+  @apply bg-blue-400/60;
+}
