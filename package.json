@@ -1,1 +1,27 @@
-{"name": "modern-chess-pro", "private": true, "version": "0.1.0", "type": "module", "scripts": {"dev": "vite", "build": "vite build", "preview": "vite preview"}, "dependencies": {"react": "^18.2.0", "react-dom": "^18.2.0", "chess.js": "^1.0.0-beta.8", "lucide-react": "^0.344.0", "clsx": "^2.1.0", "tailwind-merge": "^2.2.1"}, "devDependencies": {"@vitejs/plugin-react": "^4.2.1", "typescript": "^5.2.2", "vite": "^5.1.4", "tailwindcss": "^3.4.1", "autoprefixer": "^10.4.17", "postcss": "^8.4.35"}}
+{
+  "name": "modern-chess-pro",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~50.0.14",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "chess.js": "^1.0.0-beta.8",
+    "@expo/vector-icons": "^14.0.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}
