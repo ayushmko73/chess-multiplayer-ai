@@ -4,11 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        border: 'hsl(var(--border))',
-        background: 'hsl(var(--background))',
-        foreground: 'hsl(var(--foreground))',
-      },
+        chess: {
+          board: '#b58863',
+          light: '#f0d9b5',
+          dark: '#b58863',
+          highlight: 'rgba(255, 255, 0, 0.4)'
+        }
+      }
     },
   },
   plugins: [],
-};
+}
